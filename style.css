@@ -205,3 +205,18 @@ a {
     line-height: 19px;
     color: #F16D7F;
 }
+
+.more_product{
+    display: flex;
+    justify-content: center;
+
+}
+.btn_more{
+    
+    background: none;
+    color: #F26376;
+    border-color:#F26376;
+    border: solid;
+    padding: 15px 39px;
+    margin-top: 48px;
+}
