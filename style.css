@@ -234,12 +234,12 @@ a {
     .logo_searh {
         padding-left: 32px;
     }
+
     .main_menu {
         padding-right: 32px;
     }
-    
+
     .big_item {
-        min-height:auto;
+        min-height: auto;
     }
 }
-
