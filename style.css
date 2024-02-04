@@ -189,7 +189,7 @@ a {
     line-height: 36px;
     text-align: center;
     color: #222222;
-  }
+}
 
 .product_title {
     font-style: normal;
@@ -215,16 +215,31 @@ a {
     color: #F16D7F;
 }
 
-.more_product{
+.more_product {
     display: flex;
     justify-content: center;
 
 }
-.btn_more{
+
+.btn_more {
     background: none;
     color: #F26376;
-    border-color:#F26376;
+    border-color: #F26376;
     border: solid;
     padding: 15px 39px;
     margin-top: 48px;
 }
+
+@media(max-width: 1024px) and (min-width:768px) {
+    .logo_searh {
+        padding-left: 32px;
+    }
+    .main_menu {
+        padding-right: 32px;
+    }
+    
+    .big_item {
+        min-height:auto;
+    }
+}
+
