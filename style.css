@@ -116,7 +116,6 @@ a {
     opacity: 0;
 }
 
-
 .offer_item:hover .offer_content {
     visibility: visible;
     opacity: 1;
