@@ -445,6 +445,11 @@ a {
         line-height: 30px;
         color: #222222;
     }
+    .advantages_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 320px);
+        justify-content: center;
+    }
 
 }
 
