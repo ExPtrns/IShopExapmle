@@ -305,7 +305,7 @@ a {
 .background_grey {
     background-color: rgba(255, 255, 255, 0.3);
     background-blend-mode: difference;
-  }
+}
 
 .subscribe {
     position: relative;
@@ -409,6 +409,10 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.copyright_icons:hover .img_copyrighting:hover {
+    background-color: #F16D7F;
 }
 
 @media(max-width: 1024px) and (min-width: 768px) {
